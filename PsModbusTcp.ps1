@@ -3,6 +3,7 @@ Set-StrictMode -Version 5.0
 enum ModbusFunction {
     ReadHoldingRegisters = [byte]0x03
     ReadInputRegisters = [byte]0x04
+    WriteSingleRegister = [byte]0x06
 }
 
 function Send-ModbusCommand {
@@ -24,18 +25,24 @@ function Send-ModbusCommand {
     $numBytes = [System.BitConverter]::GetBytes($num)
     [array]::Reverse($numBytes)
 
-    [byte[]]$data = 0x00, 0x01, # transaction
-            0x00, 0x00, # protocol
-            0x00, 0x06, # length
-            $slave,     # unit id
-            $function   # function id
+    [byte[]]$tail = $slave,   # unit id
+                    $function # function id
 
-    $data = $data + $referenceBytes + $numBytes
-
+    $tail += $referenceBytes
     if ($function -eq [ModbusFunction]::ReadHoldingRegisters -or $function -eq [ModbusFunction]::ReadInputRegisters)
     {
-        $data = $data + $numBytes
+        $tail += $numBytes
     }
+
+    [uint16]$length = $tail.Length
+    $lengthBytes = [System.BitConverter]::GetBytes($length)
+    [array]::Reverse($lengthBytes)
+
+    [byte[]]$data = 0x00, 0x01, # transaction
+                    0x00, 0x00  # protocol
+
+    $data += $lengthBytes
+    $data += $tail
 
     [byte[]] $buffer = @(0) * 30
 
