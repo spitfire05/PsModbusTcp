@@ -7,10 +7,11 @@ enum ModbusFunction {
 
 function Send-ModbusCommand {
     param (
-        [byte]$function,
-        [string]$address,
-        [uint16]$port,
-        [uint16]$reference,
+        [Parameter(Mandatory=$true)][ModbusFunction]$function,
+        [Parameter(Mandatory=$true)][string]$address,
+        [Parameter(Mandatory=$true)][uint16]$port,
+        [Parameter(Mandatory=$true)][uint16]$reference,
+        [byte]$slave = 1,
         [uint16]$num = 0
     )
 
@@ -23,15 +24,15 @@ function Send-ModbusCommand {
     $numBytes = [System.BitConverter]::GetBytes($num)
     [array]::Reverse($numBytes)
 
-    $data = 0x00, 0x01, # transaction
+    [byte[]]$data = 0x00, 0x01, # transaction
             0x00, 0x00, # protocol
             0x00, 0x06, # length
-            0x01,       # unit id
-            $function  # function id
+            $slave,     # unit id
+            $function   # function id
 
     $data = $data + $referenceBytes + $numBytes
 
-    if ($function -eq 0x03 -or $function -eq 0x04)
+    if ($function -eq [ModbusFunction]::ReadHoldingRegisters -or $function -eq [ModbusFunction]::ReadInputRegisters)
     {
         $data = $data + $numBytes
     }
@@ -53,21 +54,21 @@ function Send-ModbusCommand {
 
 function Read-Registers {
     param (
-        [byte]$function,
-        [string]$address,
-        [uint16]$port,
-        [uint16]$reference,
-        [uint16]$num
+        [Parameter(Mandatory=$true)][ModbusFunction]$function,
+        [Parameter(Mandatory=$true)][string]$address,
+        [Parameter(Mandatory=$true)][uint16]$port,
+        [Parameter(Mandatory=$true)][uint16]$reference,
+        [Parameter(Mandatory=$true)][uint16]$num,
+        [byte]$slave = 1
     )
     
-    if ($function -ne 0x03 -and $function -ne 0x04)
+    if ($function -ne [ModbusFunction]::ReadHoldingRegisters -and $function -ne [ModbusFunction]::ReadInputRegisters)
     {
         Write-Error "Function has to be one of the 'read registers' ones"
         return $null
     }
 
-    $result = Send-ModbusCommand $function $address $port $reference $num
-
+    $result = Send-ModbusCommand $function $address $port $reference $slave $num
     if ($result[7] -ne $function)
     {
         Write-Error "Response error " + $result[7]
@@ -88,22 +89,24 @@ function Read-Registers {
 
 function Read-HoldingRegisters {
     param (
-        [string]$address,
-        [uint16]$port,
-        [uint16]$reference,
-        [uint16]$num
+        [Parameter(Mandatory=$true)][string]$address,
+        [Parameter(Mandatory=$true)][uint16]$port,
+        [Parameter(Mandatory=$true)][uint16]$reference,
+        [Parameter(Mandatory=$true)][uint16]$num,
+        [byte]$slave = 1
     )
     
-    return Read-Registers 0x03 $address $port $reference $num
+    return Read-Registers ReadHoldingRegisters $address $port $reference $num $slave
 }
 
 function Read-InputRegisters {
     param (
-        [string]$address,
-        [uint16]$port,
-        [uint16]$reference,
-        [uint16]$num
+        [Parameter(Mandatory=$true)][string]$address,
+        [Parameter(Mandatory=$true)][uint16]$port,
+        [Parameter(Mandatory=$true)][uint16]$reference,
+        [Parameter(Mandatory=$true)][uint16]$num,
+        [byte]$slave = 1
     )
     
-    return Read-Registers 0x04 $address $port $reference $num
+    return Read-Registers ReadInputRegisters $address $port $reference $num $slave
 }
