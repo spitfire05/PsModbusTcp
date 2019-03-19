@@ -57,7 +57,7 @@ function Send-ModbusCommand {
     $data += $lengthBytes
     $data += $tail
 
-    [byte[]] $buffer = @(0) * 30
+    [byte[]] $buffer = @(0) * 1024
 
     $tcpConnection = New-Object System.Net.Sockets.TcpClient($Address, $Port)
     $tcpConnection.ReceiveTimeout = 5000
@@ -104,7 +104,7 @@ function Read-Registers {
         [byte[]]$slice = @(0) * 2
         [array]::Copy($result, 9 + ($i * 2), $slice, 0, 2)
         [array]::Reverse($slice)
-        $output[$i] = [System.BitConverter]::ToInt16($slice, 0)
+        $output[$i] = [System.BitConverter]::ToUInt16($slice, 0)
     }
     return $output
 
