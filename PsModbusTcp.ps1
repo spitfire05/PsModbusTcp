@@ -94,7 +94,8 @@ function Read-Registers {
     $result = Send-ModbusCommand $Function $Address $Port $Reference @($Num) $Slave
     if ($result[7] -ne $Function)
     {
-        Write-Error "Response error " + $result[7]
+        $errCode = $result[7]
+        Write-Error "Response error $errCode"
         return $null
     }
     $length = $result[8]
@@ -146,7 +147,8 @@ function Write-SingleRegister {
     $result = Send-ModbusCommand WriteSingleRegister $Address $Port $Reference @($Data) $Slave
     if ($result[7] -ne [ModbusFunction]::WriteSingleRegister)
     {
-        Write-Error "Response error " + $result[7]
+        $errCode = $result[7]
+        Write-Error "Response error $errCode"
     }
 }
 
@@ -162,6 +164,7 @@ function Write-MultipleRegisters {
     $result = Send-ModbusCommand WriteMultipleRegisters $Address $Port $Reference $Data $Slave
     if ($result[7] -ne [ModbusFunction]::WriteMultipleRegisters)
     {
-        Write-Error "Response error " + $result[7]
+        $errCode = $result[7]
+        Write-Error "Response error $errCode"
     }
 }
