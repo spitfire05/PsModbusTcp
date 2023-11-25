@@ -1,0 +1,5226 @@
+﻿[
+    {
+        "Id":  3,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Reset all alarms",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  4,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable internal additional heater",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  5,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable external additional heater",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  6,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable HGW",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HGW"
+    },
+    {
+        "Id":  7,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable flow switch/pressure switch",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  8,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable tap water",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  9,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable heat",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  10,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable active cooling",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "CoolingSystem"
+    },
+    {
+        "Id":  11,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  12,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable TWC",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  13,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable WCS",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  14,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable hot gas pump",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  16,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable mivalve 2 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  17,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable mivalve 3 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  18,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable mivalve 4 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  19,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable mivalve 5 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  20,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable brine out monitoring",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  21,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable brine pump continuous operation",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  22,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable system circulation pump",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  23,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable dew point calculation",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  24,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable anti legionella",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  25,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable additional heater only (No compressor). Requires Operation mode: Standby",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  26,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable current limitation",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  28,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable pool (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  29,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable surplus heat, chiller (no borehole)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  30,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable surplus heat, borehole (no chiller)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "CoolingSystem"
+    },
+    {
+        "Id":  31,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable external additional heater for pool (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  32,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable internal additional heater for pool (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  33,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable passive cooling (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "CoolingSystem"
+    },
+    {
+        "Id":  34,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable variable speed mode for condenser pump",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  35,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable variable speed mode for brine pump",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  36,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable cooling mode for mixing valve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  37,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for cooling with mixing valve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  38,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable internal brine pump to start when cooling is active for mixing valve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  39,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for external heater",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  40,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable brine in monitoring",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  41,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable fixed system supply set point, allows defacto address 40117",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  42,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable evaporator freeze protection",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  43,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for cooling with mixing valve 2 (EM3 only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  44,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable dew point calculation on mixing valve 2, requires room sensor for mixing valve 2 (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  45,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for heating with mixing valve 2 (EM3only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  46,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for cooling with mixing valve 3 (EM3 only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  47,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable dew point calculation on mixing valve 3, requires room sensor for mixing valve 3 (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  48,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for heating with mixing valve 3 (EM3only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  49,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for cooling with mixing valve 4 (EM3 only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  50,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable dew point calculation on mixing valve 4, requires room sensor for mixing valve 4 (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  51,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for heating with mixing valve 4 (EM3only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  52,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for cooling with mixing valve 5 (EM3 only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  53,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable dew point calculation on mixing valve 5, requires room sensor for mixing valve 5 (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  54,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable outdoor temp dependent for heating with mixing valve 5 (EM3only)*5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  55,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable internal brine pump to start when cooling is active for mixing valve 2 (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  56,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable internal brine pump to start when cooling is active for mixing valve 3 (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  57,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable internal brine pump to start when cooling is active for mixing valve 4 (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  58,
+        "Scale":  1,
+        "ReadFunction":  "ReadCoilStatus",
+        "WriteFunction":  "WriteCoilStatus",
+        "Name":  "Enable internal brine pump to start when cooling is active for mixing valve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  256,
+                               "value":  "ON"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  0,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Alarm active, Class: A",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  1,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Alarm active, Class: B",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  2,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Alarm active, Class: C",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  3,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Alarm active, Class: D - Genesis secondary",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  4,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Alarm active, Class: E - Legacy secondary",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  9,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "High pressure switch alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  10,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Low pressure level alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  11,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "High discharge pipe temperature alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  12,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Operating pressure limit indication",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  13,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Discharge pipe sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  14,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Liquid line sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  15,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Suction gas sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  16,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Flow/pressure switch alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  22,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Power input phase detection alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  23,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Inverter unit alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  24,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "System supply low temperature alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  25,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Compressor low speed alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  26,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Low super heat alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  27,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Pressure ratio out of range alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  28,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Compressor pressure outside envelope alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  29,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine temperature out of range alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  30,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine in sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  31,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine out sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  32,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Condenser in sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  33,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Condenser out sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  34,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Outdoor sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  35,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "System supply line sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  36,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 1 supply line sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  37,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 2 supply line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  38,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 3 supply line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  39,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 4 supply line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  40,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 5 supply line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  44,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "WCS return line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  45,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "TWC supply line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  46,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling tank sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  47,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling supply line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  48,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling circuit return line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  49,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine delta out of range alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  50,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Tap water mid sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  51,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "TWC circulation return sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  52,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "HGW sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HGW"
+    },
+    {
+        "Id":  53,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Internal additional heater alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  55,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine in high temperature alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  56,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine in low temperature alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  57,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine out low temperature alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  58,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "TWC circulation return low temperature alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  59,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "TWC supply low temperature alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  60,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 1 supply temperature deviation alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  61,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 2 supply temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  62,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 3 supply temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  63,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 4 supply temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  64,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 5 supply temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  65,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "WCS return line temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  66,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Sum alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  67,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling circuit supply line temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  68,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling tank temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  69,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat temperature deviation alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  70,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Humidity room sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  71,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat supply line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  72,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat return line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  73,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling tank return line sensor alarm (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  74,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Temperature room sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  75,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Inverter unit communication alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  76,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Pool return line sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  77,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "External stop for pool, read only",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  78,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "External start brine pump, read only",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingSystem"
+    },
+    {
+        "Id":  79,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "External relay for brine/ground water pump.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  81,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Tap water end tank sensor alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  82,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Maximum time for anti-legionella exceeded alarm",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  83,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Genesis secondary unit alarm - this specific secondary unit cant communicate with its primary unit 84 10085 1 Primary unit alarm - the primary has detected other primary units on the same network with a network mask that is allowing conflict. Change network settings in order to avoid problem. For instance change port number on the primary and its secondary unit.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  85,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - the primary has not detected all secondary units. Makesure that the primary/secondary settings are correct and the network mask and port and number of Genesis secondaries settings are correct.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  86,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Oil boost in progress",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  199,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Compressor control signal",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  201,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Smart Grid 1, EVU input",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  202,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "External alarm input",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  204,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Smart Grid 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  206,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "External additional heater control signal",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  209,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 1 circulation pump control signal",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  210,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Condenser pump On/off control",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  211,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "System circulation pump control signal",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  213,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Hot gas circulation pump control signal",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  218,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Brine pump On/off control",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  219,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "External heater circulation pump control signal",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  220,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Heating season (winter) active",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  221,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "External additional heater active",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  222,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Internal additional heater active",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  223,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "HGW regulation control signal",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HGW"
+    },
+    {
+        "Id":  224,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Heat pump stopping",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  225,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Heat pump OK to start",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  230,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "TWC supply line circulation pump control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  232,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "WCS regulation control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  233,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "WCS circulation pump control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  234,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "TWC end tank heater control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  235,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Pool directional valve position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  236,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling circuit circulation pump control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  237,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Pool circulation pump control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  238,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat directional valve position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  239,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat circulation pump control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  240,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Cooling circuit regulation control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  241,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat regulation control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  242,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Active cooling directional valve position (Borehole disconnected) (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  243,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Passive/Active cooling directional valve position (Cooling tank connected) (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  244,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Pool regulation control signal (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  245,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Indication when mixing valve 1 is producing passive cooling",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  246,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputStatus",
+        "WriteFunction":  "",
+        "Name":  "Compressor is unable to speed up",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  1,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Currently running: First prioritised demand",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  4,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Compressor available gears",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  5,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Compressor speed RPM",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  6,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "External additional heater: Current demand (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  7,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Discharge pipe temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  8,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Condenser in temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  9,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Condenser out temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  10,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Brine in temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  11,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Brine out temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  12,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "System supply line temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  13,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Outdoor temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  15,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Tap water top temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  16,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Tap water lower temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  17,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Tap water weighted temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  18,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "System supply line calculated set point",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  19,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Selected heat curve, (system) supply line",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  20,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heat curve, X-coordinate 1 (highest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  21,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heat curve, X-coordinate 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  22,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heat curve, X-coordinate 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  23,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heat curve, X-coordinate 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  24,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heat curve, X-coordinate 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  25,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heat curve, X-coordinate 6",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  26,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heat curve, X-coordinate 7 (lowest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  36,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Cooling season integral value",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  39,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Condenser circulation pump speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  40,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 1 supply line temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  41,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Buffer tank temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  43,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 1 position",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  44,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Brine circulation pump speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  45,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "HGW supply line temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HGW"
+    },
+    {
+        "Id":  47,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Hot water directional valve position (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HGW"
+    },
+    {
+        "Id":  48,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Compressor operating hours (MSB)",
+        "MeasuringUnit":  "hours",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  49,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Compressor operating hours (LSB)",
+        "MeasuringUnit":  "hours",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  50,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Tap water operating hours (MSB)",
+        "MeasuringUnit":  "hours",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  51,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Tap water operating hours (LSB)",
+        "MeasuringUnit":  "hours",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  52,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "External additional heater operating hours (MSB)",
+        "MeasuringUnit":  "hours",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  53,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "External additional heater operating hours (LSB)",
+        "MeasuringUnit":  "hours",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  54,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Compressor speed percent",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  55,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Currently running: Second prioritised demand",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  56,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Currently running: Third prioritised demand",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  57,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Software version: Major",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  58,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Software version: Minor",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  59,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Software version: Micro",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  60,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Compressor temporarily blocked, (start restriction timer)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  61,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Compressor current gear",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  62,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Queued demand, first priority",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  63,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Queued demand, second priority",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  64,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Queued demand, third priority",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  65,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Queued demand, fourth priority",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  66,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Queued demand, fifth priority",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "Manual operation"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Defrost"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "Hot water"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Heat"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Cool"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Pool"
+                           },
+                           {
+                               "id":  7,
+                               "value":  "Anti legionella"
+                           },
+                           {
+                               "id":  98,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  99,
+                               "value":  "No demand"
+                           },
+                           {
+                               "id":  100,
+                               "value":  "OFF"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  67,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Internal additional heater current step",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  68,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Buffer tank charge set point",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  69,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L1 current (A)",
+        "MeasuringUnit":  "A",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  70,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L2 current (A)",
+        "MeasuringUnit":  "A",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  71,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L3 current (A)",
+        "MeasuringUnit":  "A",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  72,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L1-0 voltage (V)",
+        "MeasuringUnit":  "Volt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  73,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L2-0 voltage (V)",
+        "MeasuringUnit":  "Volt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  74,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L3-0 voltage (V)",
+        "MeasuringUnit":  "Volt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  75,
+        "Scale":  10,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L1-L2 voltage (V)",
+        "MeasuringUnit":  "Volt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  76,
+        "Scale":  10,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L2-L3 voltage (V)",
+        "MeasuringUnit":  "Volt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  77,
+        "Scale":  10,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L3-L1 voltage (V)",
+        "MeasuringUnit":  "Volt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  78,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L1 power (W)",
+        "MeasuringUnit":  "Watt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  79,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L2 power (W)",
+        "MeasuringUnit":  "Watt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  80,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter L3 power (W)",
+        "MeasuringUnit":  "Watt",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  81,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter - meter value (kWh)",
+        "MeasuringUnit":  "kWh",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  82,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Comfort mode *4",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  1,
+                               "value":  "EVU"
+                           },
+                           {
+                               "id":  4,
+                               "value":  "Normal"
+                           },
+                           {
+                               "id":  5,
+                               "value":  "Comfort"
+                           },
+                           {
+                               "id":  6,
+                               "value":  "Boost"
+                           }
+                       ],
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  83,
+        "Scale":  10,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter kWh total (LSB)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "ElectricMeter"
+    },
+    {
+        "Id":  84,
+        "Scale":  10,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Electric meter kWh total (MSB)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  85,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "WCS valve position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  86,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "TWC valve position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  87,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 2 position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  88,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 3 position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  89,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 4 position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  90,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 5 position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  91,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Dew point room (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  92,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Cooling supply line mivalve position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  93,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat fan speed (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  94,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Pool supply line mivalve position (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  95,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "TWC supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  96,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "TWC return temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  97,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "WCS return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  98,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "TWC end tank temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  99,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 2 supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  100,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 3 supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  101,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 4 supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  103,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Cooling circuit return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  104,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Cooling tank temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  105,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Cooling tank return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  106,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Cooling circuit supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  107,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 5 supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  109,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 2 return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  111,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 3 return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  113,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 4 return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  115,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve 5 return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  117,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  118,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Surplus heat supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  119,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Pool supply line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  120,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Pool return line temperature (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  121,
+        "Scale":  10,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Room temperature sensor",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  122,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Bubble point, high pressure temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  123,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Dew point, high pressure temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  124,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Dew point, low pressure temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  125,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Superheat temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  126,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Sub cooling temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  127,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Low pressure side, pressure (bar(g))",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  128,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "High pressure side, pressure (bar(g))",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  129,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Liquid line temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  130,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Suction gas temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  131,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Heating season integral value",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  132,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "P - value for gear shifting and demand calculation",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  133,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "I - value for gear shifting and demand calculation",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  134,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "D - value for gear shifting and demand calculation",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  135,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "I - value for compressor ON/OFF (Buffer tank)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  136,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "P - value for compressor ON/OFF (Buffer tank)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  137,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Mivalve cooling opening degree (EM2/3)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  139,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired gear for tap water",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  140,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired gear for heating",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  141,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired gear for cooling",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingSystem"
+    },
+    {
+        "Id":  142,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired gear for pool",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  143,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Number of available secondaries Genesis",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  144,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Number of available secondaries Legacy",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  145,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Total distributed gears to all units",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  146,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Maximum gear out of all the currently requested gears",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  147,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired temperature distribution circuit Mivalve 1",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  148,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired temperature distribution circuit Mivalve 2",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  149,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired temperature distribution circuit Mivalve 3",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  150,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired temperature distribution circuit Mivalve 4",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  151,
+        "Scale":  100,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Desired temperature distribution circuit Mivalve 5",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  152,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Disconnect hot gas end tank, 0 = connected, 1 = disconnected",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  153,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Legacy heat pump compressor running (bit field)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  154,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Legacy heat pump reporting alarm (bit field)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  155,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Legacy heat pump start signal (bit field)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  156,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Legacy heat pump tap water signal (bit field)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  160,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - the combined output of all Class D alarms. This signal is a bit field, one bit for each secondary heat pump unit.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  161,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - the primary unit has lost communication with one or more Genesis secondaries. This signal is a bit field, one bit for each heat pump.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  162,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - Class A alarm detected on the Genesis secondary heat pump unit. This signal is a bit field, one bit for each secondary heat pump unit.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  163,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - Class B alarm detected on the Genesis secondary heat pump unit. This signal is a bit field, one bit for each secondary heat pump unit.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  170,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - the combined output of all Class E alarms. This signal is a bit field, one bit for each legacy secondary heat pump unit.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  171,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - general legacy heat pump alarm. This signal is a bit field, one bit for each legacy secondary heat pump unit. Detects if the sum alarm of the secondary unit is active.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  173,
+        "Scale":  1,
+        "ReadFunction":  "ReadInputRegister",
+        "WriteFunction":  "",
+        "Name":  "Primary unit alarm - the primary unit can not communicate with the corresponding expansion card for the legacy heat pump. This signal is a bit field, one bit for each legacy secondary heat pump unit.",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  0,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Operational mode",
+        "MeasuringUnit":  "",
+        "ValueNames":  [
+                           {
+                               "id":  0,
+                               "value":  "OFF"
+                           },
+                           {
+                               "id":  2,
+                               "value":  "Standby"
+                           },
+                           {
+                               "id":  3,
+                               "value":  "ON/Auto"
+                           }
+                       ],
+        "Unit":  ""
+    },
+    {
+        "Id":  3,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Malimitation, set point curve radiator",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  4,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Min limitation, set point curve radiator",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  5,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Comfort wheel setting",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  6,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point heat curve, Y-coordinate 1 (highest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  7,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point heat curve, Y-coordinate 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  8,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point heat curve, Y-coordinate 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  9,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point heat curve, Y-coordinate 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  10,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point heat curve, Y-coordinate 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  11,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point heat curve, Y-coordinate 6",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  12,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point heat curve, Y-coordinate 7 (lowest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  16,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Heating season stop temperature",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  22,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Start temperature tap water",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  23,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Stop temperature tap water",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TapWater"
+    },
+    {
+        "Id":  26,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Minimum allowed gear in heating",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  27,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Maximum allowed gear in heating",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  28,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Maximum allowed gear in tap water",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  29,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Minimum allowed gear in tap water",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  30,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Cooling mivalve set point (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  31,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "TWC mivalve set point (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  32,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "WCS return line set point (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  33,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "TWC mivalve lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  34,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "TWC mivalve highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  35,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "TWC start temperature immersion heater (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  36,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "TWC start delay immersion heater, seconds (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  37,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "TWC stop temperature immersion heater (EM)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "TWC"
+    },
+    {
+        "Id":  38,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "WCS mivalve lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  39,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "WCS mivalve highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "WCS"
+    },
+    {
+        "Id":  40,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 2 lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  41,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 2 highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  42,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 3 lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  43,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 3 highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  44,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 4 lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  45,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 4 highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  46,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 5 lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  47,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Mivalve 5 highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  48,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Surplus heat chiller set point (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  49,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Cooling supply line mivalve: Lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  50,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Cooling supply line mivalve: Highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingCircuit"
+    },
+    {
+        "Id":  51,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Surplus heat opening degree for starting fan 1 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  52,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Surplus heat opening degree for starting fan 2 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  53,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Surplus heat opening degree for stopping fan 1 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  54,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Surplus heat opening degree for stopping fan 2 (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  55,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Surplus heat lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  56,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Surplus heat highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "SurplusHeat"
+    },
+    {
+        "Id":  58,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Pool charge set point (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  59,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Pool mivalve lowest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  60,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Pool mivalve highest allowed opening degree (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  61,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Gear shift delay heating",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  62,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Gear shift delay pool",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  63,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Gear shift delay cooling",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  67,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Brine in high alarm limit",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  68,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Brine in low alarm limit",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  69,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Brine out low alarm limit",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  70,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Brine madelta limit",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  71,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Hot gas pump start temperature discharge pipe",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  72,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Hot gas pump lower stop limit temperature discharge pipe",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  73,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Hot gas pump upper stop limit temperature discharge pipe",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  75,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "External additional heater start (PID sum)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  76,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Condenser pump lowest allowed speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  77,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Brine pump lowest allowed speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  78,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "External additional heater stop (PID sum)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  79,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Condenser pump highest allowed speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  80,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Brine pump highest allowed speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  81,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Condenser pump standby speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  82,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Brine pump standby speed (%)",
+        "MeasuringUnit":  "%",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  85,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Minimum allowed gear in pool",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  86,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Maximum allowed gear in pool",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  87,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Minimum allowed gear in cooling",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  88,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Maximum allowed gear in cooling",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  105,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Start temp for cooling (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  106,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Stop temp for cooling (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "CoolingTank"
+    },
+    {
+        "Id":  107,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Min limitation Set point curve radiator Mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  108,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Malimitation Set point curve radiator Mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  109,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 1 Mivalve 1 (highest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  110,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 2 Mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  111,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 3 Mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  112,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 4 Mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  113,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 5 Mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  114,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 6 Mivalve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  115,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 7 Mivalve 1 (lowest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  116,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Fixed system supply set point, requires defacto address 42 to be enabled",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatingSystem"
+    },
+    {
+        "Id":  199,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Min limitation Set point curve radiator Mivalve 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  200,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Malimitation Set point curve radiator Mivalve 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  201,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 1 Mivalve 2 (highest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  202,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 2 Mivalve 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  203,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 3 Mivalve 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  204,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 4 Mivalve 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  205,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 5 Mivalve 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  206,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 6 Mivalve 2",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  207,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 7 Mivalve 2 (lowest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  208,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Min limitation Set point curve radiator Mivalve 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  209,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Malimitation Set point curve radiator Mivalve 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  210,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 1 Mivalve 3 (highest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  211,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 2 Mivalve 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  212,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 3 Mivalve 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  213,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 4 Mivalve 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  214,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 5 Mivalve 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  215,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 6 Mivalve 3",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  216,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 7 Mivalve 3 (lowest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  239,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Min limitation Set point curve radiator Mivalve 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  240,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Malimitation Set point curve radiator Mivalve 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  241,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 1 Mivalve 4 (highest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  242,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 2 Mivalve 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  243,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 3 Mivalve 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  244,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 4 Mivalve 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  245,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 5 Mivalve 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  246,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 6 Mivalve 4",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  247,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 7 Mivalve 4 (lowest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  248,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Min limitation Set point curve radiator Mivalve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  249,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Malimitation Set point curve radiator Mivalve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  250,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 1 Mivalve 5 (highest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  251,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 2 Mivalve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  252,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 3 Mivalve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  253,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 4 Mivalve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  254,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 5 Mivalve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  255,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 6 Mivalve 5",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  256,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point curve, Y-coordinate 7 Mivalve 5 (lowest outdoor temperature)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  299,
+        "Scale":  10,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point return temp from pool to heat exchanger (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  300,
+        "Scale":  10,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point pool hysteresis (EM)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "Pool"
+    },
+    {
+        "Id":  302,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point for supply line temp passive cooling with mixing valve 1",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  303,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Set point minimum outdoor temp when cooling is permitted",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "MixValve1"
+    },
+    {
+        "Id":  304,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "External heater outdoor temp limit",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  "HeatPump"
+    },
+    {
+        "Id":  305,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Selected mode for mixing valve 2, 0:Heat, 1:Cool, 2:Auto (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  306,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Desired cooling temperature setpoint mixing valve 2 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  307,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal cooling temperature (outdoor temp.), mixing valve 2 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  308,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal heating temperature (outdoor temp.), mixing valve 2 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  309,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Selected mode for mixing valve 3, 0:Heat, 1:Cool, 2:Auto (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  310,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Desired cooling temperature setpoint mixing valve 3 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  311,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal cooling temperature (outdoor temp.), mixing valve 3 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  312,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal heating temperature (outdoor temp.), mixing valve 3 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  313,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Selected mode for mixing valve 4, 0:Heat, 1:Cool, 2:Auto (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  314,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Desired cooling temperature setpoint mixing valve 4 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  315,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal cooling temperature (outdoor temp.), mixing valve 4 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  316,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal heating temperature (outdoor temp.), mixing valve 4 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  317,
+        "Scale":  1,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Selected mode for mixing valve 5, 0:Heat, 1:Cool, 2:Auto (EM3 only)",
+        "MeasuringUnit":  "",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  318,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Desired cooling temperature setpoint mixing valve 5 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  319,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal cooling temperature (outdoor temp.), mixing valve 5 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    },
+    {
+        "Id":  320,
+        "Scale":  100,
+        "ReadFunction":  "ReadHoldingRegister",
+        "WriteFunction":  "WriteHoldingRegister",
+        "Name":  "Seasonal heating temperature (outdoor temp.), mixing valve 5 (EM3 only)",
+        "MeasuringUnit":  "°C",
+        "ValueNames":  null,
+        "Unit":  ""
+    }
+]
